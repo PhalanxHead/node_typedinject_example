@@ -1,8 +1,10 @@
 module.exports = {
-  testEnvironment: 'node',
-  roots: ['<rootDir>/test'],
-  testMatch: ['**/*.test.ts'],
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest'
-  }
+    moduleNameMapper: {
+        '^@/(.*)$': '<rootDir>/src/$1',
+    },
+    testMatch: ['**/*.test.ts'],
+    transform: {
+        '^.+\\.tsx?$': 'ts-jest',
+    },
+    modulePathIgnorePatterns: ['<rootDir>/.*/__mocks__'],
 };

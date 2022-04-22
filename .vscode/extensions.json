@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "arcanis.vscode-zipfs",
+    "hookyqr.beautify",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "davidanson.vscode-markdownlint",
+    "dawhite.mustache",
+    "esbenp.prettier-vscode"
+  ]
+}
